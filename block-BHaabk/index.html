@@ -1,13 +1,109 @@
-<!-- 
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the brand name to the left and all the navigation to the right.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Use flexbox properties and values to create columns.
- -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog and galary</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/0c2e1adcc2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <a class="header-tag" href="#"> Mercedes</a>
+      </div>
+      <nav class="header-nav">
+        <a class="header-tag" href="#">By now</a>
+        <a class="header-tag" href="#">finance & service</a>
+        <a class="header-tag" href="#"> technology & innovation</a>
+        <a class="header-tag" href="#">Mercedes Benz world</a>
+      </nav>
+    </header>
+    <main class="main">
+      <article class="container">
+        <div class="box">
+          <h1>the world best choice</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
+            sit voluptate. Quis, culpa dolorum reprehenderit labore temporibus
+            eligendi eveniet. Quaerat eveniet aliquid reiciendis cumque nemo
+            velit assumenda minus neque molestias Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Deserunt autem dolore nemo, sit alias
+            labore quos quibusdam repudiandae. Voluptas dolorum quos cupiditate
+            odit at voluptate saepe accusantium quaerat totam voluptates. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Hic quam quisquam
+            ea, voluptatibus minima repellat quod. Neque, quaerat modi eum ex
+            temporibus facere alias, veniam at dolorum, ducimus qui autem?
+          </p>
+        </div>
+        <div class="box2">
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="car"
+          />
+        </div>
+      </article>
+      <section class="galary">
+        <div class="galary-container">
+          <div class="galary-box">
+            <img
+              class="galary-img"
+              src="https://images.unsplash.com/photo-1615228939096-9ead6c74008e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1430&q=80"
+            />
+          </div>
+          <div class="galary-box">
+            <img
+              class="galary-img"
+              src="https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+            />
+          </div>
+          <div class="galary-box">
+            <img
+              class="galary-img"
+              src="https://images.unsplash.com/photo-1586375103528-8bc247aa8110?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80"
+            />
+          </div>
+        </div>
+        <div class="galary-container2">
+          <div class="galary-box">
+            <img
+              class="galary-img"
+              src="https://images.unsplash.com/photo-1618395855034-200e7057954d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=346&q=80"
+            />
+          </div>
+          <div class="galary-box">
+            <img
+              class="galary-img"
+              src="https://images.unsplash.com/photo-1616790151040-47661836dd26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            />
+          </div>
+          <div class="galary-box">
+            <img
+              class="galary-img"
+              src="https://images.unsplash.com/photo-1551836989-b4622a17a792?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <small class="cp-right"> &copy;all right reserved </small>
+      <nav class="footer-nav">
+        <a class="footer-tag" href="#">
+          <i class="fab fa-facebook">Facebook</i></a
+        >
+        <a class="footer-tag" href="#"
+          ><i class="fab fa-twitter">Twitter</i>
+        </a>
+        <a class="footer-tag" href=""
+          ><i class="fab fa-instagram"> Instagrm</i>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
