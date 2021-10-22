@@ -6,3 +6,60 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galary</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0c2e1adcc2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          class="header-img"
+          src="./assets/altcampus-logo.svg"
+          alt="Altcampus"
+        />
+      </div>
+      <nav class="header-nav">
+        <a class="header-tag" href="#"> Home</a>
+        <a class="header-tag" href="#">Galary</a>
+        <a class="header-tag" href="#">about</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="heading-container">
+          <h1>gallery</h1>
+        </div>
+        <div class="galary-container">
+          <div class="box">
+            <img class="img" src="./assets/01.png" />
+          </div>
+          <div class="box">
+            <img class="img" src="./assets/02.png" />
+          </div>
+          <div class="box"><img class="img" src="./assets/03.png" /></div>
+          <div class="box"><img class="img" src="./assets/04.png" /></div>
+          <div class="box"><img class="img" src="./assets/05.png" /></div>
+          <div class="box"><img class="img" src="./assets/06.png" /></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <small class="small"> &copy;Altcampus</small>
+
+      <nav class="nav">
+        <a class="tag" href="#"><i class="fab fa-facebook-square"></i></a>
+        <a class="tag" href="#"><i class="fab fa-twitter-square"></i></a>
+      </nav>
+    </footer>
+  </body>
+</html>
