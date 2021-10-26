@@ -1,0 +1,118 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog dashbord</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/0c2e1adcc2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a>
+          <img src="./assets/icons/altcampus-logo.svg" alt="altcampus" />
+        </a>
+
+        <nav>
+          <a class="header-tag">
+            <img src="./assets/icons/bell.svg" alt="notification" />
+          </a>
+          <a class="header-tag" href="#">Sarah jone </a>
+          <a class="header-tag">
+            <img src="./assets/icons/user.svg" alt="" />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <body>
+    <main class=" main-container">
+
+        <div class="features-box">
+
+            <div class="feature-bar">
+
+                <a class="features">
+                <img src="./assets/icons/dashboard.svg" alt="dashboard">
+                <span>Dashboard</span>
+                </a>
+
+                <a class="features active">
+                <img src="./assets/icons/article.svg" alt="articles">
+                <span>Articles</span>
+                </a>
+                <a class="features ">
+                <img src="./assets/icons/analytics.svg" alt="analytics">
+                <span>Analytics</span>
+                </a>
+                <a class="features">
+                <img src="./assets/icons/inbox.svg" alt="inbox">
+                <span>Inbox</span>
+                </a>
+                <a class="features">
+                    <img src="./assets/icons/setting.svg" alt="setting">
+                    <span>Setting</span>
+                </a>
+                
+
+            </div>
+
+
+            <a class="log-out">
+                <img src="./assets/icons/log-out.svg" alt="log-out">
+                <span class="log-out -spn">Log Out</span>
+            </a>
+
+
+        </div>
+
+        <div class="article-container">
+            
+            <div class="content">
+                <img  class="article-img"src="./assets/01.png" alt="img">
+            </div>
+            <article class="article content">
+                <h1>
+                    Why we are you doing AltCampus ?
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium repudiandae aliquam quas natus quam incidunt. Repellat optio eius, accusantium eligendi maiores nisi eos, rem quos ut dolorum atque eveniet. Dolor?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est deleniti, quis quas laborum beatae officia culpa ad.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium repudiandae aliquam quas natus quam incidunt. Repellat optio eius, accusantium eligendi maiores nisi eos, rem quos ut dolorum atque eveniet. Dolor?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est deleniti, quis quas laborum beatae officia culpa ad.</p>
+                <a href="#">
+                  <button class="btn">Read-more</button>
+                </a>
+
+              
+                
+            </article>
+            
+            
+
+        </div>
+        
+    </main>
+    <footer>
+      <div class="footer-container">
+        <small class="copyright" > &copy;  Altcampus</small>
+        <nav class="footer-nav">
+          <a class="footer-tag" href="#"> <i class="fab fa-facebook-square"></i></a>
+          <a class="footer-tag" href="#"> <i class="fab fa-twitter-square"></i></a>
+        </nav>
+
+      </div>
+    </footer>
+
+        
+    </body> 
+</html>
